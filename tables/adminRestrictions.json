@@ -1,0 +1,910 @@
+[
+  {
+    "type": "menu",
+    "name": "1-dashboard"
+  },
+  {
+    "type": "module",
+    "name": "dashboard/collections"
+  },
+  {
+    "type": "module",
+    "name": "dashboard/charts"
+  },
+  {
+    "type": "module",
+    "name": "dashboard/tops"
+  },
+  {
+    "type": "module",
+    "name": "dashboard/collections"
+  },
+  {
+    "type": "module",
+    "name": "dashboard/charts"
+  },
+  {
+    "type": "module",
+    "name": "dashboard/tops"
+  },
+  {
+    "type": "menu",
+    "name": "2-payments"
+  },
+  {
+    "type": "module",
+    "name": "sidebar/menus"
+  },
+  {
+    "type": "module",
+    "name": "pdfs/waterbill"
+  },
+  {
+    "type": "module",
+    "name": "search/consumer"
+  },
+  {
+    "type": "module",
+    "name": "search/consumer-with-email"
+  },
+  {
+    "type": "module",
+    "name": "users/change-password-inputs"
+  },
+  {
+    "type": "module",
+    "name": "users/change-password"
+  },
+  {
+    "type": "menu",
+    "name": "3a-statements"
+  },
+  {
+    "type": "menu",
+    "name": "3b-readings"
+  },
+  {
+    "type": "menu",
+    "name": "3c-bills"
+  },
+  {
+    "type": "menu",
+    "name": "4-consumers"
+  },
+  {
+    "type": "menu",
+    "name": "5-notifications"
+  },
+  {
+    "type": "menu",
+    "name": "6-downloads"
+  },
+  {
+    "type": "menu",
+    "name": "7-users"
+  },
+  {
+    "type": "menu",
+    "name": "settings"
+  },
+  {
+    "type": "sub_menu",
+    "name": "payments_list"
+  },
+  {
+    "type": "module",
+    "name": "water/payments-columns"
+  },
+  {
+    "type": "module",
+    "name": "water/payments-list"
+  },
+  {
+    "type": "sub_menu",
+    "name": "payments_list_voided"
+  },
+  {
+    "type": "module",
+    "name": "water/payments-voided-columns"
+  },
+  {
+    "type": "module",
+    "name": "water/payments-voided-list"
+  },
+  {
+    "type": "sub_menu",
+    "name": "statements_list"
+  },
+  {
+    "type": "module",
+    "name": "water/statement-columns"
+  },
+  {
+    "type": "module",
+    "name": "water/statement-list"
+  },
+  {
+    "type": "sub_menu",
+    "name": "statements_cancelled"
+  },
+  {
+    "type": "module",
+    "name": "water/statement-voided-columns"
+  },
+  {
+    "type": "module",
+    "name": "water/statement-voided-list"
+  },
+  {
+    "type": "sub_menu",
+    "name": "reading_list"
+  },
+  {
+    "type": "module",
+    "name": "water/reading-columns"
+  },
+  {
+    "type": "module",
+    "name": "water/reading-list"
+  },
+  {
+    "type": "sub_menu",
+    "name": "reading_deleted"
+  },
+  {
+    "type": "module",
+    "name": "water/deleted-readings-columns"
+  },
+  {
+    "type": "module",
+    "name": "water/deleted-readings-list"
+  },
+  {
+    "type": "sub_menu",
+    "name": "utility_bills_list"
+  },
+  {
+    "type": "module",
+    "name": "water/utility-bills-columns"
+  },
+  {
+    "type": "module",
+    "name": "water/utility-bills-list"
+  },
+  {
+    "type": "sub_menu",
+    "name": "utility_bills_cancelled_list"
+  },
+  {
+    "type": "module",
+    "name": "water/utility-bills-cancelled-columns"
+  },
+  {
+    "type": "module",
+    "name": "water/utility-bills-cancelled-list"
+  },
+  {
+    "type": "sub_menu",
+    "name": "consumers_active_list"
+  },
+  {
+    "type": "module",
+    "name": "water/consumers-columns"
+  },
+  {
+    "type": "module",
+    "name": "water/consumers-list"
+  },
+  {
+    "type": "sub_menu",
+    "name": "consumers_suspended_list"
+  },
+  {
+    "type": "module",
+    "name": "water/consumers-suspended-columns"
+  },
+  {
+    "type": "module",
+    "name": "water/consumers-suspended-list"
+  },
+  {
+    "type": "sub_menu",
+    "name": "notifications_pending"
+  },
+  {
+    "type": "module",
+    "name": "notifications/pending-columns"
+  },
+  {
+    "type": "module",
+    "name": "notifications/pending-list"
+  },
+  {
+    "type": "sub_menu",
+    "name": "notifications_sent"
+  },
+  {
+    "type": "module",
+    "name": "notifications/sent-columns"
+  },
+  {
+    "type": "module",
+    "name": "notifications/sent-list"
+  },
+  {
+    "type": "sub_menu",
+    "name": "notifications_failed"
+  },
+  {
+    "type": "module",
+    "name": "notifications/failed-columns"
+  },
+  {
+    "type": "module",
+    "name": "notifications/failed-list"
+  },
+  {
+    "type": "sub_menu",
+    "name": "download_statements"
+  },
+  {
+    "type": "module",
+    "name": "downloads/statements-columns"
+  },
+  {
+    "type": "module",
+    "name": "downloads/statements-list"
+  },
+  {
+    "type": "module",
+    "name": "downloads/download-statement-inputs"
+  },
+  {
+    "type": "module",
+    "name": "downloads/download-statements"
+  },
+  {
+    "type": "module",
+    "name": "public-gets/download-statements"
+  },
+  {
+    "type": "sub_menu",
+    "name": "users_list"
+  },
+  {
+    "type": "module",
+    "name": "users/users-columns"
+  },
+  {
+    "type": "module",
+    "name": "users/users-list"
+  },
+  {
+    "type": "sub_menu",
+    "name": "settings_headers"
+  },
+  {
+    "type": "module",
+    "name": "settings/headers-columns"
+  },
+  {
+    "type": "module",
+    "name": "settings/headers-list"
+  },
+  {
+    "type": "module",
+    "name": "settings/due-date-columns"
+  },
+  {
+    "type": "module",
+    "name": "settings/due-date-list"
+  },
+  {
+    "type": "sub_menu",
+    "name": "settings_notices"
+  },
+  {
+    "type": "module",
+    "name": "settings/notices-columns"
+  },
+  {
+    "type": "module",
+    "name": "settings/notices-list"
+  },
+  {
+    "type": "sub_menu",
+    "name": "settings_minimum_consumption"
+  },
+  {
+    "type": "module",
+    "name": "settings/minimum-consumption-columns"
+  },
+  {
+    "type": "module",
+    "name": "settings/minimum-consumption-list"
+  },
+  {
+    "type": "sub_menu",
+    "name": "settings_rates"
+  },
+  {
+    "type": "module",
+    "name": "settings/rates-columns"
+  },
+  {
+    "type": "module",
+    "name": "settings/rates-list"
+  },
+  {
+    "type": "sub_menu",
+    "name": "settings_utility_bills_charges"
+  },
+  {
+    "type": "module",
+    "name": "settings/utility-bills-charges-columns"
+  },
+  {
+    "type": "module",
+    "name": "settings/utility-bills-charges-list"
+  },
+  {
+    "type": "sub_menu",
+    "name": "settings_interest"
+  },
+  {
+    "type": "module",
+    "name": "settings/interest-columns"
+  },
+  {
+    "type": "module",
+    "name": "settings/interest-list"
+  },
+  {
+    "type": "sub_menu",
+    "name": "settings_percentage_charges"
+  },
+  {
+    "type": "module",
+    "name": "settings/percentage-charges-columns"
+  },
+  {
+    "type": "module",
+    "name": "settings/percentage-charges-list"
+  },
+  {
+    "type": "sub_menu",
+    "name": "settings_fixed_charges"
+  },
+  {
+    "type": "module",
+    "name": "settings/fixed-charges-columns"
+  },
+  {
+    "type": "module",
+    "name": "settings/fixed-charges-list"
+  },
+  {
+    "type": "sub_menu",
+    "name": "settings_notifications"
+  },
+  {
+    "type": "module",
+    "name": "settings/notifications-columns"
+  },
+  {
+    "type": "module",
+    "name": "settings/notifications-list"
+  },
+  {
+    "type": "button",
+    "name": "consumers_new"
+  },
+  {
+    "type": "module",
+    "name": "consumers/new-consumer-inputs"
+  },
+  {
+    "type": "module",
+    "name": "consumers/new-consumer"
+  },
+  {
+    "type": "module",
+    "name": "public-gets/download-consumer-import-template"
+  },
+  {
+    "type": "button",
+    "name": "downloads_terminate_process"
+  },
+  {
+    "type": "module",
+    "name": "downloads/terminate-statements-request-inputs"
+  },
+  {
+    "type": "module",
+    "name": "downloads/terminate-statement-request"
+  },
+  {
+    "type": "button",
+    "name": "download_statements"
+  },
+  {
+    "type": "module",
+    "name": "downloads/statements-columns"
+  },
+  {
+    "type": "module",
+    "name": "downloads/statements-list"
+  },
+  {
+    "type": "module",
+    "name": "downloads/download-statement-inputs"
+  },
+  {
+    "type": "module",
+    "name": "downloads/download-statements"
+  },
+  {
+    "type": "module",
+    "name": "public-gets/download-statements"
+  },
+  {
+    "type": "button",
+    "name": "menu_update"
+  },
+  {
+    "type": "module",
+    "name": "settings/menu-update-inputs"
+  },
+  {
+    "type": "module",
+    "name": "settings/menu-update"
+  },
+  {
+    "type": "button",
+    "name": "menu_duplicate"
+  },
+  {
+    "type": "module",
+    "name": "settings/menu-duplicate-inputs"
+  },
+  {
+    "type": "module",
+    "name": "settings/menu-duplicate"
+  },
+  {
+    "type": "button",
+    "name": "menu_delete"
+  },
+  {
+    "type": "module",
+    "name": "settings/menu-delete-inputs"
+  },
+  {
+    "type": "module",
+    "name": "settings/menu-delete"
+  },
+  {
+    "type": "button",
+    "name": "notifications_cancel_pending"
+  },
+  {
+    "type": "module",
+    "name": "notifications/cancel-pending-inputs"
+  },
+  {
+    "type": "module",
+    "name": "notification/cancel-pending"
+  },
+  {
+    "type": "button",
+    "name": "notification_send"
+  },
+  {
+    "type": "module",
+    "name": "notifications/send-notification-inputs"
+  },
+  {
+    "type": "module",
+    "name": "notifications/send-notification"
+  },
+  {
+    "type": "button",
+    "name": "settings_headers_update"
+  },
+  {
+    "type": "module",
+    "name": "settings/settings-update-inputs"
+  },
+  {
+    "type": "module",
+    "name": "settings/settings-update"
+  },
+  {
+    "type": "module",
+    "name": "settings/settings-update-inputs"
+  },
+  {
+    "type": "module",
+    "name": "settings/settings-update"
+  },
+  {
+    "type": "module",
+    "name": "settings/update-logo"
+  },
+  {
+    "type": "button",
+    "name": "settings_headers_delete"
+  },
+  {
+    "type": "module",
+    "name": "settings/settings-delete-inputs"
+  },
+  {
+    "type": "module",
+    "name": "settings/settings-delete"
+  },
+  {
+    "type": "button",
+    "name": "settings_fixed_charge_add"
+  },
+  {
+    "type": "module",
+    "name": "settings/add-fixed-charge-inputs"
+  },
+  {
+    "type": "module",
+    "name": "settings/add-fixed-charge"
+  },
+  {
+    "type": "button",
+    "name": "settings_notice_add"
+  },
+  {
+    "type": "module",
+    "name": "settings/add-notice-inputs"
+  },
+  {
+    "type": "module",
+    "name": "settings/add-notice"
+  },
+  {
+    "type": "button",
+    "name": "settings_percentage_charge_add"
+  },
+  {
+    "type": "module",
+    "name": "settings/add-percentage-charge-inputs"
+  },
+  {
+    "type": "module",
+    "name": "settings/add-percentage-charge"
+  },
+  {
+    "type": "button",
+    "name": "settings_rates_modify_scheme"
+  },
+  {
+    "type": "module",
+    "name": "settings/rates-modify-scheme-inputs"
+  },
+  {
+    "type": "module",
+    "name": "settings/rates-modify-scheme"
+  },
+  {
+    "type": "button",
+    "name": "users_list_change_password"
+  },
+  {
+    "type": "module",
+    "name": "users/update-password-inputs"
+  },
+  {
+    "type": "module",
+    "name": "users/update-password"
+  },
+  {
+    "type": "button",
+    "name": "users_list_update_information"
+  },
+  {
+    "type": "module",
+    "name": "users/update-information-inputs"
+  },
+  {
+    "type": "module",
+    "name": "users/update-information"
+  },
+  {
+    "type": "button",
+    "name": "users_list_set_restrictions"
+  },
+  {
+    "type": "module",
+    "name": "users/update-restrictions-inputs"
+  },
+  {
+    "type": "module",
+    "name": "users/update-restrictions"
+  },
+  {
+    "type": "button",
+    "name": "users_list_suspend"
+  },
+  {
+    "type": "module",
+    "name": "users/suspend-user-inputs"
+  },
+  {
+    "type": "module",
+    "name": "users/suspend-user"
+  },
+  {
+    "type": "button",
+    "name": "users_list_unsuspend"
+  },
+  {
+    "type": "module",
+    "name": "users/unsuspend-user-inputs"
+  },
+  {
+    "type": "module",
+    "name": "users/unsuspend-user"
+  },
+  {
+    "type": "button",
+    "name": "users_add"
+  },
+  {
+    "type": "module",
+    "name": "users/add-user-inputs"
+  },
+  {
+    "type": "module",
+    "name": "users/add-user"
+  },
+  {
+    "type": "button",
+    "name": "water_consumers_change_meter"
+  },
+  {
+    "type": "module",
+    "name": "water/change-meter-inputs"
+  },
+  {
+    "type": "module",
+    "name": "water/change-meter"
+  },
+  {
+    "type": "button",
+    "name": "water_consumers_update_info"
+  },
+  {
+    "type": "module",
+    "name": "water/update-consumer-inputs"
+  },
+  {
+    "type": "module",
+    "name": "water/update-consumer"
+  },
+  {
+    "type": "module",
+    "name": "water/update-consumer-inputs"
+  },
+  {
+    "type": "module",
+    "name": "water/update-consumer"
+  },
+  {
+    "type": "button",
+    "name": "water_consumers_suspend"
+  },
+  {
+    "type": "module",
+    "name": "water/suspend-consumer-inputs"
+  },
+  {
+    "type": "module",
+    "name": "water/suspend-consumer"
+  },
+  {
+    "type": "button",
+    "name": "water_consumers_unsuspend"
+  },
+  {
+    "type": "module",
+    "name": "water/unsuspend-consumer-inputs"
+  },
+  {
+    "type": "module",
+    "name": "water/unsuspend-consumer"
+  },
+  {
+    "type": "button",
+    "name": "water_payment_void"
+  },
+  {
+    "type": "module",
+    "name": "water/void-payment-inputs"
+  },
+  {
+    "type": "module",
+    "name": "water/void-payment"
+  },
+  {
+    "type": "button",
+    "name": "water_new_payment"
+  },
+  {
+    "type": "module",
+    "name": "water/new-payment-inputs"
+  },
+  {
+    "type": "module",
+    "name": "water/new-payment"
+  },
+  {
+    "type": "button",
+    "name": "water_reading_delete"
+  },
+  {
+    "type": "module",
+    "name": "water/delete-reading-inputs"
+  },
+  {
+    "type": "module",
+    "name": "water/delete-reading"
+  },
+  {
+    "type": "button",
+    "name": "water_reading_add"
+  },
+  {
+    "type": "module",
+    "name": "water/new-reading-inputs"
+  },
+  {
+    "type": "module",
+    "name": "water/new-reading"
+  },
+  {
+    "type": "module",
+    "name": "upload/readings"
+  },
+  {
+    "type": "module",
+    "name": "public-gets/download-reading-template"
+  },
+  {
+    "type": "button",
+    "name": "water_settings_update"
+  },
+  {
+    "type": "module",
+    "name": "water/update-settings-inputs"
+  },
+  {
+    "type": "module",
+    "name": "water/update-settings"
+  },
+  {
+    "type": "button",
+    "name": "water_settings_delete"
+  },
+  {
+    "type": "module",
+    "name": "water/delete-settings-inputs"
+  },
+  {
+    "type": "module",
+    "name": "water/delete-settings"
+  },
+  {
+    "type": "button",
+    "name": "water_settings_add"
+  },
+  {
+    "type": "module",
+    "name": "water/add-settings-inputs"
+  },
+  {
+    "type": "module",
+    "name": "water/add-settings"
+  },
+  {
+    "type": "button",
+    "name": "water_statement_void"
+  },
+  {
+    "type": "module",
+    "name": "water/void-statement-inputs"
+  },
+  {
+    "type": "module",
+    "name": "water/void-statement"
+  },
+  {
+    "type": "button",
+    "name": "water_statement_void_by_bill_date"
+  },
+  {
+    "type": "module",
+    "name": "water/void-by-bill-date-inputs"
+  },
+  {
+    "type": "module",
+    "name": "water/void-by-bill-date"
+  },
+  {
+    "type": "button",
+    "name": "water_statement_generate"
+  },
+  {
+    "type": "module",
+    "name": "water/generate-statement-inputs"
+  },
+  {
+    "type": "module",
+    "name": "water/generate-statements"
+  },
+  {
+    "type": "button",
+    "name": "water_utility_bill_view"
+  },
+  {
+    "type": "module",
+    "name": "water/utility-bill-view-inputs"
+  },
+  {
+    "type": "button",
+    "name": "water_utility_bill_void"
+  },
+  {
+    "type": "module",
+    "name": "water/utility-bill-void-inputs"
+  },
+  {
+    "type": "module",
+    "name": "water/utility-bill-void"
+  },
+  {
+    "type": "button",
+    "name": "water_utility_bills_add"
+  },
+  {
+    "type": "module",
+    "name": "water/add-utility-bill-inputs"
+  },
+  {
+    "type": "module",
+    "name": "water/add-utility-bill"
+  },
+  {
+    "type": "module",
+    "name": "upload/utility-bill"
+  },
+  {
+    "type": "module",
+    "name": "sidebar/menus"
+  },
+  {
+    "type": "module",
+    "name": "pdfs/waterbill"
+  },
+  {
+    "type": "module",
+    "name": "search/consumer"
+  },
+  {
+    "type": "module",
+    "name": "search/consumer-with-email"
+  },
+  {
+    "type": "module",
+    "name": "users/change-password-inputs"
+  },
+  {
+    "type": "module",
+    "name": "users/change-password"
+  }
+]

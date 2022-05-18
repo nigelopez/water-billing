@@ -1,0 +1,122 @@
+[
+  {
+    "_id": 1,
+    "id": "settings",
+    "icon": "iconsminds-gear",
+    "label": "Settings",
+    "long_label": "",
+    "to": "{root}/settings",
+    "component": "Tabs",
+    "component_props": "[{\"name\":\"settings_headers\",\"label\":\"Headers\",\"component\":\"List\",\"componentProps\":{\"column\":\"settings/headers-columns\",\"module\":\"settings/headers-list\"}},{\"name\":\"settings_notices\",\"label\":\"Notices\",\"component\":\"List\",\"componentProps\":{\"column\":\"settings/notices-columns\",\"module\":\"settings/notices-list\"}},{\"name\":\"settings_minimum_consumption\",\"label\":\"Minimum Consumption\",\"component\":\"List\",\"componentProps\":{\"column\":\"settings/minimum-consumption-columns\",\"module\":\"settings/minimum-consumption-list\"}},{\"name\":\"settings_rates\",\"label\":\"Rates\",\"component\":\"List\",\"componentProps\":{\"column\":\"settings/rates-columns\",\"module\":\"settings/rates-list\"}},{\"name\":\"settings_utility_bills_charges\",\"label\":\"Utility Bills Charges\",\"component\":\"List\",\"componentProps\":{\"column\":\"settings/utility-bills-charges-columns\",\"module\":\"settings/utility-bills-charges-list\"}},{\"name\":\"settings_interest\",\"label\":\"Interest\",\"component\":\"List\",\"componentProps\":{\"column\":\"settings/interest-columns\",\"module\":\"settings/interest-list\"}},{\"name\":\"settings_percentage_charges\",\"label\":\"Percentage Charges\",\"component\":\"List\",\"componentProps\":{\"column\":\"settings/percentage-charges-columns\",\"module\":\"settings/percentage-charges-list\"}},{\"name\":\"settings_fixed_charges\",\"label\":\"Fixed Charges\",\"component\":\"List\",\"componentProps\":{\"column\":\"settings/fixed-charges-columns\",\"module\":\"settings/fixed-charges-list\"}},{\"name\":\"settings_notifications\",\"label\":\"Notifications\",\"component\":\"List\",\"componentProps\":{\"column\":\"settings/notifications-columns\",\"module\":\"settings/notifications-list\"}},{\"name\":\"settings_due_date\",\"label\":\"Due Date\",\"component\":\"List\",\"componentProps\":{\"column\":\"settings/due-date-columns\",\"module\":\"settings/due-date-list\"}},{\"name\":\"settings_gcash\",\"label\":\"Gcash\",\"component\":\"List\",\"componentProps\":{\"column\":\"settings/gcash-columns\",\"module\":\"settings/gcash-list\"}},{\"name\":\"settings_water\",\"label\":\"Water Settings\",\"component\":\"List\",\"componentProps\":{\"column\":\"water/settings-columns\",\"module\":\"water/settings-list\"}},{\"name\":\"settings_menu\",\"label\":\"Menu Settings\",\"component\":\"List\",\"componentProps\":{\"column\":\"settings/menus-columns\",\"module\":\"settings/menus-list\"}}]",
+    "right_elements": "",
+    "added_on": "2022-03-29T18:47:06.000Z"
+  },
+  {
+    "_id": 5,
+    "id": "1-dashboard",
+    "icon": "iconsminds-bar-chart-4",
+    "label": "Dashboard",
+    "long_label": "",
+    "to": "{root}/dashboard",
+    "component": "Dashboard",
+    "component_props": "{\"collections\": \"dashboard/collections\", \"charts\":\"dashboard/charts\",\"tops\":\"dashboard/tops\"}",
+    "right_elements": "",
+    "added_on": "2022-03-29T18:47:06.000Z"
+  },
+  {
+    "_id": 6,
+    "id": "2-payments",
+    "icon": "iconsminds-money-bag",
+    "label": "Payments",
+    "long_label": "",
+    "to": "{root}/payments",
+    "component": "Tabs",
+    "component_props": "[{\"name\":\"payments_list\",\"label\":\"List Payments\",\"component\":\"List2\",\"componentProps\":{\"column\":\"payments/all-columns\",\"module\":\"payments/all-list\"}},{\"name\":\"payments_gcash\",\"label\":\"Gcash Payments\",\"component\":\"List2\",\"componentProps\":{\"column\":\"payments/gcash-columns\",\"module\":\"payments/gcash-list\"}},{\"name\":\"payments_voided_list\",\"label\":\"Cancelled Payments\",\"component\":\"List2\",\"componentProps\":{\"column\":\"payments/voided-columns\",\"module\":\"payments/voided-list\"}}]",
+    "right_elements": "",
+    "added_on": "2022-03-29T18:47:06.000Z"
+  },
+  {
+    "_id": 7,
+    "id": "3a-statements",
+    "icon": "iconsminds-files",
+    "label": "Statements",
+    "long_label": "",
+    "to": "{root}/statements",
+    "component": "Tabs",
+    "component_props": "[{\"name\":\"statements_list\",\"label\":\"All Statements\",\"component\":\"List2\",\"componentProps\":{\"column\":\"statements/all-columns\",\"module\":\"statements/all-list\"}},{\"name\":\"statements_cancelled\",\"label\":\"Cancelled Statements\",\"component\":\"List2\",\"componentProps\":{\"column\":\"statements/voided-columns\",\"module\":\"statements/voided-list\"}}]",
+    "right_elements": "",
+    "added_on": "2022-03-29T18:47:06.000Z"
+  },
+  {
+    "_id": 8,
+    "id": "4-consumers",
+    "icon": "iconsminds-male",
+    "label": "Consumers",
+    "long_label": "",
+    "to": "{root}/consumers",
+    "component": "Tabs",
+    "component_props": "[{\"name\":\"consumers_active_list\",\"label\":\"Active Consumers\",\"component\":\"List2\",\"componentProps\":{\"column\":\"consumers/all-columns\",\"module\":\"consumers/all-list\"}},{\"name\":\"consumers_suspended_list\",\"label\":\"Suspended Consumers\",\"component\":\"List2\",\"componentProps\":{\"column\":\"consumers/suspended-columns\",\"module\":\"consumers/suspended-list\"}}]",
+    "right_elements": "",
+    "added_on": "2022-03-29T18:47:06.000Z"
+  },
+  {
+    "_id": 9,
+    "id": "3b-readings",
+    "icon": "iconsminds-dashboard",
+    "label": "Readings",
+    "long_label": "",
+    "to": "{root}/water-readings",
+    "component": "Tabs",
+    "component_props": "[{\"name\":\"reading_list\",\"label\":\"Active Readings\",\"component\":\"List2\",\"componentProps\":{\"column\":\"readings/all-columns\",\"module\":\"readings/all-list\"}},{\"name\":\"reading_uploaded\",\"label\":\"Uploaded Readings\",\"component\":\"List2\",\"componentProps\":{\"column\":\"readings/uploaded-columns\",\"module\":\"readings/uploaded-list\"}},{\"name\":\"reading_deleted\",\"label\":\"Deleted Readings\",\"component\":\"List2\",\"componentProps\":{\"column\":\"readings/deleted-columns\",\"module\":\"readings/deleted-list\"}},{\"name\":\"reading_settings\",\"label\":\"Reading Settings\",\"component\":\"List2\",\"componentProps\":{\"column\":\"readings/settings-columns\",\"module\":\"readings/settings-list\"}}]",
+    "right_elements": "",
+    "added_on": "2022-03-29T18:47:06.000Z"
+  },
+  {
+    "_id": 10,
+    "id": "3c-bills",
+    "icon": "iconsminds-box-with-folders",
+    "label": "Bills",
+    "long_label": "Utility Bills",
+    "to": "{root}/utility-bills",
+    "component": "Tabs",
+    "component_props": "[{\"name\":\"utility_bills_list\",\"label\":\"Active Bills\",\"component\":\"List2\",\"componentProps\":{\"column\":\"utility-bills/all-columns\",\"module\":\"utility-bills/all-list\"}},{\"name\":\"utility_bills_cancelled_list\",\"label\":\"Cancelled Bills\",\"component\":\"List2\",\"componentProps\":{\"column\":\"utility-bills/cancelled-columns\",\"module\":\"utility-bills/cancelled-list\"}}]",
+    "right_elements": "",
+    "added_on": "2022-03-29T18:47:06.000Z"
+  },
+  {
+    "_id": 11,
+    "id": "6-downloads",
+    "icon": "iconsminds-download-1",
+    "label": "Downloads",
+    "long_label": "",
+    "to": "{root}/downloads",
+    "component": "Tabs",
+    "component_props": "[{\"name\":\"download_statements\",\"label\":\"Statements\",\"component\":\"List2\",\"componentProps\":{\"column\":\"downloads/statements-columns\",\"module\":\"downloads/statements-list\"}}]",
+    "right_elements": "",
+    "added_on": "2022-03-29T18:47:06.000Z"
+  },
+  {
+    "_id": 12,
+    "id": "7-users",
+    "icon": "iconsminds-add-user",
+    "label": "Users",
+    "long_label": "",
+    "to": "{root}/users",
+    "component": "Tabs",
+    "component_props": "[{\"name\":\"users_list\",\"label\":\"List Users\",\"component\":\"List\",\"componentProps\":{\"column\":\"users/users-columns\",\"module\":\"users/users-list\"}}]",
+    "right_elements": "",
+    "added_on": "2022-03-29T18:47:06.000Z"
+  },
+  {
+    "_id": 13,
+    "id": "5-notifications",
+    "icon": "iconsminds-mail-outbox",
+    "label": "Notifications",
+    "long_label": "",
+    "to": "{root}/notifications",
+    "component": "Tabs",
+    "component_props": "[{\"name\":\"notifications_pending\",\"label\":\"Pending\",\"component\":\"List2\",\"componentProps\":{\"column\":\"notifications/pending-columns\",\"module\":\"notifications/pending-list\"}},{\"name\":\"notifications_sent\",\"label\":\"Sent\",\"component\":\"List2\",\"componentProps\":{\"column\":\"notifications/sent-columns\",\"module\":\"notifications/sent-list\"}},{\"name\":\"notifications_failed\",\"label\":\"Failed\",\"component\":\"List2\",\"componentProps\":{\"column\":\"notifications/failed-columns\",\"module\":\"notifications/failed-list\"}}]",
+    "right_elements": "",
+    "added_on": "2022-03-29T18:47:06.000Z"
+  }
+]

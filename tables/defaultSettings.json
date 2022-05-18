@@ -1,0 +1,247 @@
+[
+  {
+    "id": 14,
+    "name": "percentage_charges_admin_fee",
+    "description": "Admin Fee ( {{value}}% of (Sub Total 1 + Sub Total 2) )",
+    "value": "5",
+    "type": "percentage"
+  },
+  {
+    "id": 15,
+    "name": "paper_size",
+    "description": "Size/Type of bond paper of the statement",
+    "value": "LETTER",
+    "type": "text"
+  },
+  {
+    "id": 16,
+    "name": "header_logo",
+    "description": "Logo - Base64 Encoded Image",
+    "value": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAiCAYAAACp43wlAAAACXBIWXMAAAsTAAALEwEAmpwYAAAGpklEQVRoge2ae4hVVRTGf3OvjmZpo5NGpU0lgmb/JCVSFr0QsrKnTBRqEoFBlBX0sMJXkc/MMiVLM3sSmEQSFZmVZvayl2EPgh7/RURkjq/RiT18O1arfc4904wzRHfB4Zx79nt9e31rrX0u/Pekm+7nAG8DA/S73IVz+t9KN91PA34HWoBPgHq9r4LSBWCMBpoExi7dPwf6VUHpGstoEgh7gf3AHv3+rApK54OxU8qPIMRrdxWUzgXj9ARNfQxcBfxRpa+uo6ldum8Hjlb5ecZiYnmVvjqBpnYZMI5UeS8TAgefUgWlk2lqO9A/o34KlGr0dZBpaoCpOwiY4dpXLaUTaWqAqRtyjq0qW6F3pSooB4emdlagqXpRkQ13nywASpW+OtiBR8uIYASFHwD26feq1hpVS+lUMD41YMSk0ILyRBWUzomm6pVbxCx9v64DujcbUKr0BdQkTlpLhtPzLKOpDTS1xx2Z+Otg01eNLv8ur77/XS7wrl1Sdp0f4t6VMiZZhKb6GpqKYPwCfAn8ICV/o3YRWE9f5YKgpJSdmrd9zqvvpeSee5vE9m/9zqvQURx0kmJ/+y4udiBwt5TwOPAYsAg4w/VTY447dlSgqX6GpvYaRc9W+ZnAT0Af/X7XAJJHX/6YJQB+nBn3OqAuQ5ljgBPd2s8Hhjm9xPoXAleafkLbmcBS4GFgCfAQcI3dxFvSOPxjMvPNZKyZXQq8CFwOHCHk+0phq1zyFif8mpSxIyPP6OvAsPcZxsJ+lEUG2ajy5gLRVwQlWugdZuybgOud0i0gC03dw4BnEgDGdb4AjNTzxcDz0ktYX0/NPWyGWwVMeMf6CoDEzu8DhjofMA5YA/TIaT/T7Oq4wDChzVLGNkdTdfoKaEE4oCs8fy9AtyoP2ag1/GbqtmSAYukr5jBL3DqDZT4NdM9Yz3JgsJ4nADdngDdabBGDkrBpD8/RU+jz0PCwIaeSnegcA0iQo4BXYieJBZRN22XAWFcvWNNTwLEZPmOvA6NZv0Obk4GpwM/ARYrUtjkL8aB4+gqbaXFizkFmAVe4+rHsauAWPQegG5yeYr2w4y8wljVdz7WVnPoGx/H+KhvKGup2/kSnZC9xMScAqxPvrfQ2xyEpy4jvgnkHGSJribLeOfUUKNHRe/FO+iRzJOMdd5022DhtUoyOYt0G0VNc51iBHAEp5UVrlSgLA8gwQ1nPJk5eUxInGxZxihncgl2JplqMhbwMjAfmAr8CN2hjfKvy/S5p9KCEeeeF5SUz31Pdu7LxM98Zffjy24Apps/w7eZ1ExTZsSyTtMpmNRioBoNEIw1yOINVvsJYSLivNMotAsidQKN7V2OsY2MFQKyCs66s+haQOO8sKZnoaV6Ocw8BRUp6yjp8jjNGfmQacJbzm7bv1nh+rgZfoCtEEg8AD4pnF4vajlebkYlT1koLvNFQXCpPqTWhawqUeI+ZeczUmxN+IwuMR8y4RXKIEEEdY+rHeYcQfxNwrllDLGs09OSB7CWfN1sb41EFBTF6bZU3KSbTTcOhJoJoi4XEmDyV1ccJb8kAxQKyzwARj00sACkwAgXRxjlPMQ48RpYNyiOGmD5tjhX81PDEOKkEOfiqa4HnFATU+igrNdHY0WwX9q42f1DLk5IJF0fljFPWPURt7ydAaStltccyotRLWT1Mu6kKdxFzxDwDrW9ZBebI8l23x8CnaNg7KxFlTXC7JzU48kMhX6kkZZNwfehAiU59jZLQSRp/opz818aCLBhLEmspIjYEbjTzWmFOB84G7jdtFshX2LXnjV3jdPdWewAJ3PqqyUM8KDa0W66MPjXRLEX0Bj4yoERgwk5KyYbE0cnSxDqKSqw/3ITsjYqg7DxXykH3V0KZ1U9sk1p/TBuC0+eNghObmcjULwPWJpId73vmFAQjBcoHUm6TOzqpVb24mE0q391OmrIS57tUIftC+Q6rg8k6i5psQl0fRU42iXGWBH+yDvF1kUnNzTjLGi9QLtFOqRP3jpJ5x4ijrVI2oET6ajEZr49g3jF1OgIM2/cI4CttSjs28i/rtLEDpZEYe5AOXO+Vz+mjjdRd+gpgvaRxWhO+9p72hsjjHpnvWpnu/MRpb3tAeU/KnubKSoZ/2+MzsqTGbMgRGeufqATVzic1h4vEFot0NjhHgcFdygM7RHwI28dRWKmD+u+pbHyBex/7/0LnXB0JRhFJfSfJq4MJ8aP/7Shd/esvhm2Vsu7hBCHssjimlbBLPXd3pOStpdLHLdtH6uvgX8cnfwKFN2Phff+XXwAAAABJRU5ErkJggg==",
+    "type": "text"
+  },
+  {
+    "id": 17,
+    "name": "header_company_name",
+    "description": "Name of company / subdivision",
+    "value": "Homeowners Association Web System",
+    "type": "text"
+  },
+  {
+    "id": 18,
+    "name": "header_company_address",
+    "description": "Address of company / subdivision",
+    "value": "617B Meridian Building, Mabolo, Cebu City",
+    "type": "text"
+  },
+  {
+    "id": 19,
+    "name": "header_company_email",
+    "description": "Displayed email in the statement",
+    "value": "support@tpz.ph",
+    "type": "text"
+  },
+  {
+    "id": 20,
+    "name": "header_company_phone",
+    "description": "Displayed phone in the statement",
+    "value": "+63 917 111 0130",
+    "type": "text"
+  },
+  {
+    "id": 22,
+    "name": "notice_1",
+    "description": "Payment Notice 1",
+    "value": "This is a sample notice",
+    "type": "text"
+  },
+  {
+    "id": 23,
+    "name": "notice_2",
+    "description": "Payment Notice 2",
+    "value": "This is another notice",
+    "type": "text"
+  },
+  {
+    "id": 28,
+    "name": "interest",
+    "description": "Interest on outstanding balance (percentage)",
+    "value": "2",
+    "type": "percentage"
+  },
+  {
+    "id": 54,
+    "name": "minimum_consumption",
+    "description": "Minimum Cubic Meter per Billing",
+    "value": "10",
+    "type": "number"
+  },
+  {
+    "id": 75,
+    "name": "rate[consumption_range[1]]",
+    "description": "Minimum 10 cu.m",
+    "value": "1",
+    "type": "number"
+  },
+  {
+    "id": 76,
+    "name": "rate[consumption_range[2]]",
+    "description": "10 to 20 cu.m",
+    "value": "16.80",
+    "type": "number"
+  },
+  {
+    "id": 77,
+    "name": "rate[consumption_range[3]]",
+    "description": "20 to 30 cu.m",
+    "value": "19.77",
+    "type": "number"
+  },
+  {
+    "id": 78,
+    "name": "rate[consumption_range[4]]",
+    "description": "Over 30 cu.m",
+    "value": "48.40",
+    "type": "number"
+  },
+  {
+    "id": 79,
+    "name": "consumption_range[1]",
+    "description": "Range of Consumption #1",
+    "value": "0-10",
+    "type": "range"
+  },
+  {
+    "id": 80,
+    "name": "consumption_range[2]",
+    "description": "Range of Consumption #2",
+    "value": "10-20",
+    "type": "range"
+  },
+  {
+    "id": 81,
+    "name": "consumption_range[3]",
+    "description": "Range of Consumption #3",
+    "value": "20-30",
+    "type": "range"
+  },
+  {
+    "id": 82,
+    "name": "consumption_range[4]",
+    "description": "Range of Consumption #4",
+    "value": "30-999999",
+    "type": "range"
+  },
+  {
+    "id": 83,
+    "name": "charge_label[water]",
+    "description": "Water Charges",
+    "value": "MCWD Add-On Charge",
+    "type": "text"
+  },
+  {
+    "id": 84,
+    "name": "charge_label[electric]",
+    "description": "Electricity Charges",
+    "value": "MECO Pumping Charge",
+    "type": "text"
+  },
+  {
+    "id": 85,
+    "name": "required_additional_charges",
+    "description": "Required additional charges before creating statement(e.g water, electric), separated by comma",
+    "value": "water,electric",
+    "type": "text"
+  },
+  {
+    "id": 86,
+    "name": "notifications_subject",
+    "description": "Subject of water billing email notification",
+    "value": "{unit_code} - Water Bill for {bill_month} {bill_year}",
+    "type": "text"
+  },
+  {
+    "id": 87,
+    "name": "notifications_message",
+    "description": "Body of water billing email notification",
+    "value": "<p>Hello!</p>\n<p>We're pleased to send your Water Bill with the following details:</p>\n<table class=\"editorDemoTable\" style=\"width: 393px; height: 287px;\">\n<thead>\n<tr style=\"height: 18px;\">\n<td style=\"width: 159.422px; height: 18px;\">Unit Code:</td>\n<td style=\"width: 217.578px; height: 18px;\">{unit_code}</td>\n</tr>\n</thead>\n<tbody>\n<tr style=\"height: 21px;\">\n<td style=\"width: 159.422px; height: 21px;\">Consumer Name:</td>\n<td style=\"width: 217.578px; height: 21px;\">{consumer_name}</td>\n</tr>\n<tr>\n<td style=\"width: 159.422px;\">&nbsp;</td>\n<td style=\"width: 217.578px;\">&nbsp;</td>\n</tr>\n<tr style=\"height: 18px;\">\n<td style=\"width: 159.422px; height: 18px;\">Billing #:</td>\n<td style=\"width: 217.578px; height: 18px;\">{bill_number}</td>\n</tr>\n<tr style=\"height: 18px;\">\n<td style=\"width: 159.422px; height: 18px;\">Billing Date:</td>\n<td style=\"width: 217.578px; height: 18px;\">{bill_date}</td>\n</tr>\n<tr style=\"height: 21px;\">\n<td style=\"width: 159.422px; height: 21px;\">Period From:</td>\n<td style=\"width: 217.578px; height: 21px;\">{period_from}</td>\n</tr>\n<tr style=\"height: 10px;\">\n<td style=\"width: 159.422px; height: 10px;\">Previous Reading:</td>\n<td style=\"width: 217.578px; height: 10px;\">{previous_reading}</td>\n</tr>\n<tr style=\"height: 18px;\">\n<td style=\"width: 159.422px; height: 18px;\">Period To:</td>\n<td style=\"width: 217.578px; height: 18px;\">{period_to}</td>\n</tr>\n<tr style=\"height: 18px;\">\n<td style=\"width: 159.422px; height: 18px;\">Current Reading:</td>\n<td style=\"width: 217.578px; height: 18px;\">{current_reading}</td>\n</tr>\n<tr style=\"height: 18px;\">\n<td style=\"width: 159.422px; height: 18px;\">Number of days:</td>\n<td style=\"width: 217.578px; height: 18px;\">{number_of_days}</td>\n</tr>\n<tr style=\"height: 19px;\">\n<td style=\"width: 159.422px; height: 19px;\">Total Consumption:</td>\n<td style=\"width: 217.578px; height: 19px;\">{total_cbm}</td>\n</tr>\n<tr style=\"height: 18px;\">\n<td style=\"width: 159.422px; height: 18px;\">Billed Consumption:</td>\n<td style=\"width: 217.578px; height: 18px;\">{billed_cbm}</td>\n</tr>\n<tr style=\"height: 18px;\">\n<td style=\"width: 159.422px; height: 18px;\">&nbsp;</td>\n<td style=\"width: 217.578px; height: 18px;\">&nbsp;</td>\n</tr>\n<tr style=\"height: 10px;\">\n<td style=\"width: 159.422px; height: 10px;\">Outstanding Balance:</td>\n<td style=\"width: 217.578px; height: 10px;\">{outstanding_balance}</td>\n</tr>\n<tr style=\"height: 18px;\">\n<td style=\"width: 159.422px; height: 18px;\">&nbsp;</td>\n<td style=\"width: 217.578px; height: 18px;\">&nbsp;</td>\n</tr>\n<tr style=\"height: 26px;\">\n<td style=\"width: 159.422px; height: 26px;\">Total Amount Due:</td>\n<td style=\"width: 217.578px; height: 26px;\"><strong>{total_amount_due}</strong></td>\n</tr>\n</tbody>\n</table>\n<p> {gcash_payment_link}</p>\n<p>Should you need any further information,<br />please do not hesitate to contact us by replying to this email.<br /><br /><br />Thank you!</p>",
+    "type": "text"
+  },
+  {
+    "id": 88,
+    "name": "notifications_reply_to",
+    "description": "Email address of where you want to receive the replies of your consumers",
+    "value": "support@hoaws.com",
+    "type": "text"
+  },
+  {
+    "id": 89,
+    "name": "notifications_name",
+    "description": "Name of sender (could be your company name)",
+    "value": "Hoaws",
+    "type": "text"
+  },
+  {
+    "id": 90,
+    "name": "notifications_sender",
+    "description": "Email address of the sender",
+    "value": "billings@hoaws.com",
+    "type": "text"
+  },
+  {
+    "id": 92,
+    "name": "header_logo_margin_top",
+    "description": "Top Margin of the Logo",
+    "value": "5",
+    "type": "number"
+  },
+  {
+    "id": 93,
+    "name": "additional_days_for_due_date",
+    "description": "Additional Days after Billing Date for Due Date",
+    "value": "15",
+    "type": "number"
+  },
+  {
+    "id": 94,
+    "name": "sample",
+    "description": "asdf",
+    "value": "Hello!\n\nWe're pleased to send your **Invoice** with the following details:\n\n|            |             |\n| ---------- | ---------   |\n| Unit Code  | {unit_code}\n| Name       | {name}\n| Invoice #  | **{id}**\n| Bill Date  | {bill_date_display}\n| Due Date   | {due_date_display}\n| Amount Due | **{total_amount_display}**\n\n\nShould you need any further information,\nplease do not hesitate to contact us by replying to this email.\n\n\nThank you!",
+    "type": ""
+  },
+  {
+    "id": 95,
+    "name": "readings_intercept_value",
+    "description": "Review if consumption is greater than the value set (in cbm)",
+    "value": "50",
+    "type": "number"
+  },
+  {
+    "id": 96,
+    "name": "gcash_allowed",
+    "description": "Allow Online Payments Thru Gcash",
+    "value": "yes",
+    "type": "text"
+  },
+  {
+    "id": 97,
+    "name": "gcash_api_key",
+    "description": "Gcash API Key",
+    "value": "pk_3ca7102c097691f82521d8c99ba1604d",
+    "type": "text"
+  },
+  {
+    "id": 98,
+    "name": "gcash_additional_fee",
+    "description": "Additional fee for Gcash Transactions ( can be 0 )",
+    "value": "0",
+    "type": "percentage"
+  },
+  {
+    "id": 99,
+    "name": "gcash_api_url",
+    "description": "Gcash API Url",
+    "value": "https://g.payx.ph/payment_request",
+    "type": "text"
+  }
+]
